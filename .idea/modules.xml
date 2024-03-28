@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/chatbot-api.iml" filepath="$PROJECT_DIR$/.idea/chatbot-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatbot-api-application.iml" filepath="$PROJECT_DIR$/chatbot-api-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatbot-api-domain.iml" filepath="$PROJECT_DIR$/chatbot-api-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatbot-api-infrastructure.iml" filepath="$PROJECT_DIR$/chatbot-api-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatbot-api-interfaces.iml" filepath="$PROJECT_DIR$/chatbot-api-interfaces.iml" />
     </modules>
   </component>
 </project>

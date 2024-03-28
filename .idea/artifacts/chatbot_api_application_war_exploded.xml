@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="chatbot-api-application:war exploded">
+    <output-path>$PROJECT_DIR$/chatbot-api-application/target/chatbot-api-application</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>chatbot-api-application</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="chatbot-api-application" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/chatbot-api-application/target/chatbot-api-application/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="chatbot-api-application/web/Web" />
+    </root>
+  </artifact>
+</component>

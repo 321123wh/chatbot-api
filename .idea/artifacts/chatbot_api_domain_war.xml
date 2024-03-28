@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chatbot-api-domain:war">
+    <output-path>$PROJECT_DIR$/chatbot-api-domain/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>chatbot-api-domain</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="chatbot-api-domain.war">
+      <element id="artifact" artifact-name="chatbot-api-domain:war exploded" />
+    </root>
+  </artifact>
+</component>
